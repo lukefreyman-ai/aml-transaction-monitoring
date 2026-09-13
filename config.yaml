@@ -1,0 +1,76 @@
+# aml-transaction-monitoring configuration
+generator:
+  seed: 7
+  n_customers: 2000
+  start_date: "2025-01-01"
+  months: 12
+  target_rows: 520000            # baseline volume is scaled so the total lands near this
+  typologies:                    # number of customers injected per typology
+    structuring: 40
+    rapid_movement: 35
+    round_dollar: 30
+    dormant_reactivation: 30
+    geo_velocity: 30
+    high_risk_wires: 25
+
+high_risk_countries: [IR, KP, SY, MM, AF, YE, VE, RU, BY]
+
+# Scenario rules. Each rule's tunable thresholds live here; sql/<rule>.sql reads them as parameters.
+rules:
+  R1_structuring:
+    weight: 30
+    cash_min: 8000               # deposits at or above this ...
+    cash_max: 10000              # ... and below the CTR threshold
+    min_count: 3                 # ... at least this many ...
+    window_days: 7               # ... within this many days
+    tune: {param: min_count, grid: [2, 3, 4, 5, 6]}
+  R2_rapid_movement:
+    weight: 25
+    min_inbound: 20000
+    min_out_share: 0.80          # outbound within the window must be at least this share of the inbound
+    window_days: 3
+    tune: {param: min_out_share, grid: [0.5, 0.6, 0.7, 0.8, 0.9]}
+  R3_round_dollar:
+    weight: 10
+    round_to: 1000
+    min_amount: 5000
+    min_count: 4
+    window_days: 30
+    tune: {param: min_count, grid: [3, 4, 5, 6, 8]}
+  R4_dormant_reactivation:
+    weight: 15
+    dormant_days: 90
+    burst_days: 7
+    min_burst_amount: 15000
+    tune: {param: min_burst_amount, grid: [5000, 10000, 15000, 25000, 40000]}
+  R5_geo_velocity:
+    weight: 20
+    max_hours: 6                 # two card/ATM transactions in different countries within this many hours
+    min_amount: 100
+    tune: {param: max_hours, grid: [2, 4, 6, 12, 24]}
+  R6_high_risk_wire:
+    weight: 20
+    min_amount: 5000
+    tune: {param: min_amount, grid: [1000, 2500, 5000, 10000, 25000]}
+  R7_cash_intensity:
+    weight: 15
+    min_monthly_cash: 20000
+    multiple_of_expected: 3.0
+    tune: {param: min_monthly_cash, grid: [10000, 15000, 20000, 30000, 50000]}
+  R8_velocity_spike:
+    weight: 10
+    lookback_days: 90
+    window_days: 7
+    multiple: 4.0
+    min_count: 15
+    tune: {param: multiple, grid: [2.5, 3.0, 4.0, 5.0, 6.0]}
+
+scoring:
+  risk_rating_bonus: {low: 0, medium: 10, high: 25}
+  multi_rule_bonus: 15           # per additional distinct rule on the same customer within 30 days
+  priority_bands: {high: 60, medium: 35}   # score >= high -> "high", >= medium -> "medium", else "low"
+
+tuning:
+  target_alerts_per_month: 40    # analyst capacity: total alerts per month the team can work
+  min_recall: 0.60               # try not to tune a rule below this share of its typology's injected customers
+  min_precision: 0.15            # a rule that can't reach this precision at any threshold is parked and flagged for redesign

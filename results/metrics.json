@@ -1,0 +1,37 @@
+{
+ "rows": 518492,
+ "customers": 2000,
+ "months": 12,
+ "injected_rows": 972,
+ "suspicious_customers": 190,
+ "baseline": {
+  "alerts": 693,
+  "per_month": 57.8,
+  "precision": 0.532,
+  "any_suspicious_rate": 0.616,
+  "suspicious_customers_alerted": 175
+ },
+ "tuned": {
+  "alerts": 470,
+  "per_month": 39.2,
+  "precision": 0.826,
+  "any_suspicious_rate": 0.898,
+  "suspicious_customers_alerted": 190
+ },
+ "priority_counts": {
+  "high": 293,
+  "medium": 133,
+  "low": 44
+ },
+ "cases_written": 25,
+ "star_schema_rows": {
+  "dim_customer": 2000,
+  "dim_account": 2791,
+  "dim_rule": 8,
+  "dim_date": 372,
+  "fact_transaction": 518492,
+  "fact_alert": 470,
+  "bridge_alert_txn": 1716
+ },
+ "elapsed_seconds": 17.6
+}

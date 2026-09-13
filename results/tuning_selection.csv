@@ -1,0 +1,9 @@
+rule_id,param,value,alerts,alerts_per_month,precision,recall,fp_rate,reason,enabled
+R1_structuring,min_count,2.0,52,4.3,1.0,1.0,0.0,loosest setting above the precision floor (max recall),True
+R2_rapid_movement,min_out_share,0.6,69,5.8,0.739,1.0,0.087,tightened to fit analyst capacity,True
+R3_round_dollar,min_count,3.0,45,3.8,1.0,1.0,0.0,loosest setting above the precision floor (max recall),True
+R4_dormant_reactivation,min_burst_amount,5000.0,30,2.5,1.0,1.0,0.0,loosest setting above the precision floor (max recall),True
+R5_geo_velocity,max_hours,24.0,137,11.4,0.701,1.0,0.277,loosest setting above the precision floor (max recall),True
+R6_high_risk_wire,min_amount,1000.0,76,6.3,1.0,1.0,0.0,loosest setting above the precision floor (max recall),True
+R7_cash_intensity,min_monthly_cash,15000.0,61,5.1,0.623,0.925,0.066,tightened to fit analyst capacity,True
+R8_velocity_spike,multiple,6.0,0,0.0,0.055,0.2,0.857,never reaches precision 15% at any threshold - disabled pending redesign,False

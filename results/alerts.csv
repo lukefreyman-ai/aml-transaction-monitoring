@@ -1,0 +1,471 @@
+alert_id,customer_id,rule_id,alert_date,trigger_amount,n_txns,detail,customer_typology,target_typology,hit,any_suspicious,risk_rating,severity,score,n_other_rules_30d,priority
+AL000049,C01854,R1_structuring,2025-06-16,27432.0,3,cash deposits just under $10k: 3 deposits totalling $27432 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,6.81,176.3,1,high
+AL000057,C00725,R2_rapid_movement,2025-08-05,22222.43,4,inbound $22222 moved out within 3 days: $33803 in 3 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,medium,6.58,171.6,2,high
+AL000440,C01429,R7_cash_intensity,2025-04-01,27325.0,3,cash deposits of $27325 in the month vs expected monthly volume $2800,structuring,structuring,True,True,low,6.55,155.9,1,high
+AL000168,C00526,R4_dormant_reactivation,2025-08-03,127720.73999999999,11,"no activity for 135 days, then $127721 in 11 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,6.51,155.2,1,high
+AL000457,C01541,R7_cash_intensity,2025-06-01,44297.71,6,cash deposits of $44298 in the month vs expected monthly volume $1700,structuring,structuring,True,True,low,6.81,151.3,1,high
+AL000157,C01904,R3_round_dollar,2025-04-27,180000.0,9,9 round-dollar transfers (multiples of $1000) totalling $180000 in 30 days,round_dollar,round_dollar,True,True,low,6.79,150.7,1,high
+AL000152,C01896,R3_round_dollar,2025-04-29,145000.0,7,7 round-dollar transfers (multiples of $1000) totalling $145000 in 30 days,round_dollar,round_dollar,True,True,low,6.28,150.6,0,high
+AL000416,C01532,R7_cash_intensity,2025-10-01,26835.0,3,cash deposits of $26835 in the month vs expected monthly volume $3500,structuring,structuring,True,True,low,6.59,146.8,1,high
+AL000172,C01466,R4_dormant_reactivation,2025-11-18,76366.51999999997,9,"no activity for 148 days, then $76367 in 9 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,6.54,145.8,1,high
+AL000045,C00683,R1_structuring,2025-11-02,46488.0,5,cash deposits just under $10k: 5 deposits totalling $46488 across 4 branch(es) in 7 days,structuring,structuring,True,True,medium,5.98,144.5,1,high
+AL000414,C01481,R7_cash_intensity,2025-08-01,54515.86,7,cash deposits of $54516 in the month vs expected monthly volume $3500,structuring,structuring,True,True,low,6.39,142.7,1,high
+AL000035,C00394,R1_structuring,2025-02-24,36098.0,4,cash deposits just under $10k: 4 deposits totalling $36098 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,6.27,140.3,1,high
+AL000001,C01371,R1_structuring,2025-02-21,44162.0,5,cash deposits just under $10k: 5 deposits totalling $44162 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,6.25,140.1,1,high
+AL000202,C00528,R5_geo_velocity,2025-10-17,883.14,2,card activity in GB and FR 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,6.5,140.0,0,high
+AL000454,C00381,R7_cash_intensity,2025-09-01,29737.9,2,cash deposits of $29738 in the month vs expected monthly volume $3500,dormant_reactivation,structuring,False,True,medium,4.2,139.0,2,high
+AL000401,C00950,R6_high_risk_wire,2025-11-23,32873.51,1,wire of $32874 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,6.43,138.5,0,high
+AL000285,C00852,R5_geo_velocity,2025-04-28,460.37,2,card activity in GB and US 10.4 hours apart,,geo_velocity,False,False,medium,6.89,137.8,0,high
+AL000373,C00957,R6_high_risk_wire,2025-05-04,33028.92,1,wire of $33029 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,6.39,137.8,0,high
+AL000303,C00790,R5_geo_velocity,2025-03-17,382.31,2,card activity in BR and US 23.1 hours apart,,geo_velocity,False,False,low,6.87,137.5,0,high
+AL000291,C00392,R5_geo_velocity,2025-06-10,1424.08,2,card activity in FR and US 1.4 hours apart,geo_velocity,geo_velocity,True,True,low,6.88,137.5,0,high
+AL000070,C00807,R2_rapid_movement,2025-09-02,53662.89,4,inbound $53663 moved out within 3 days: $91218 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,5.55,136.0,0,high
+AL000030,C01854,R1_structuring,2025-06-14,54550.0,6,cash deposits just under $10k: 6 deposits totalling $54550 across 6 branch(es) in 7 days,structuring,structuring,True,True,low,6.04,135.8,1,high
+AL000237,C01205,R5_geo_velocity,2025-11-15,542.36,2,card activity in US and CA 19.6 hours apart,,geo_velocity,False,False,low,6.79,135.7,0,high
+AL000364,C00135,R6_high_risk_wire,2025-07-13,47773.28,1,wire of $47773 to high-risk jurisdiction SY,high_risk_wires,high_risk_wires,True,True,low,6.78,135.5,0,high
+AL000264,C01581,R5_geo_velocity,2025-06-17,1638.64,2,card activity in ES and US 0.5 hours apart,geo_velocity,geo_velocity,True,True,low,6.76,135.2,0,high
+AL000132,C01777,R3_round_dollar,2025-06-14,180000.0,9,9 round-dollar transfers (multiples of $1000) totalling $180000 in 30 days,round_dollar,round_dollar,True,True,high,6.76,135.2,0,high
+AL000309,C00260,R5_geo_velocity,2025-04-20,1742.3200000000002,2,card activity in FR and ES 2.5 hours apart,geo_velocity,geo_velocity,True,True,medium,6.74,134.8,0,high
+AL000204,C00967,R5_geo_velocity,2025-08-19,1621.88,2,card activity in BR and FR 2.2 hours apart,geo_velocity,geo_velocity,True,True,low,6.67,133.4,0,high
+AL000240,C01595,R5_geo_velocity,2025-08-05,583.85,2,card activity in GB and MX 2.4 hours apart,geo_velocity,geo_velocity,True,True,low,6.61,132.2,0,high
+AL000099,C01991,R2_rapid_movement,2025-10-17,119820.79,4,inbound $119821 moved out within 3 days: $90212 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,high,6.61,132.2,0,high
+AL000407,C00950,R6_high_risk_wire,2025-11-29,7692.49,1,wire of $7692 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,6.58,131.6,0,high
+AL000342,C01472,R6_high_risk_wire,2025-09-28,21991.78,1,wire of $21992 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,5.32,131.4,0,high
+AL000148,C01777,R3_round_dollar,2025-07-02,75000.0,4,4 round-dollar transfers (multiples of $1000) totalling $75000 in 30 days,round_dollar,round_dollar,True,True,high,6.52,130.4,0,high
+AL000341,C00507,R6_high_risk_wire,2025-09-27,12395.95,1,wire of $12396 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,6.52,130.3,0,high
+AL000166,C01153,R4_dormant_reactivation,2025-08-06,73827.73,18,"no activity for 158 days, then $73828 in 18 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,6.45,129.0,0,high
+AL000425,C01466,R7_cash_intensity,2025-11-01,24946.58,1,cash deposits of $24947 in the month vs expected monthly volume $3600,dormant_reactivation,structuring,False,True,low,5.69,128.8,1,high
+AL000345,C01421,R6_high_risk_wire,2025-10-02,25772.11,1,wire of $25772 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,6.42,128.4,0,high
+AL000231,C00041,R5_geo_velocity,2025-10-06,835.28,2,card activity in GB and BR 2.4 hours apart,geo_velocity,geo_velocity,True,True,medium,5.9,127.9,0,high
+AL000379,C01887,R6_high_risk_wire,2025-02-28,15655.39,1,wire of $15655 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,6.36,127.2,0,high
+AL000147,C01512,R3_round_dollar,2025-07-26,120000.0,8,8 round-dollar transfers (multiples of $1000) totalling $120000 in 30 days,round_dollar,round_dollar,True,True,low,6.35,127.1,0,high
+AL000085,C01387,R2_rapid_movement,2025-04-12,60027.98,4,inbound $60028 moved out within 3 days: $39727 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,6.34,126.8,0,high
+AL000276,C00585,R5_geo_velocity,2025-02-06,261.22,2,card activity in ES and US 3.4 hours apart,,geo_velocity,False,False,medium,6.31,126.3,0,high
+AL000075,C01904,R2_rapid_movement,2025-05-05,20000.0,3,inbound $20000 moved out within 3 days: $40000 in 2 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,5.73,125.9,1,high
+AL000255,C01595,R5_geo_velocity,2025-07-10,1040.29,2,card activity in FR and GB 0.8 hours apart,geo_velocity,geo_velocity,True,True,low,6.28,125.6,0,high
+AL000169,C01386,R4_dormant_reactivation,2025-08-19,93525.22000000002,13,"no activity for 143 days, then $93525 in 13 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,high,5.51,125.3,1,high
+AL000077,C00410,R2_rapid_movement,2025-11-18,47762.58,2,inbound $47763 moved out within 3 days: $43788 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,6.25,125.0,0,high
+AL000187,C01530,R4_dormant_reactivation,2025-11-28,74806.17000000001,14,"no activity for 112 days, then $74806 in 14 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,5.64,124.6,1,high
+AL000050,C01392,R1_structuring,2025-02-16,28631.0,3,cash deposits just under $10k: 3 deposits totalling $28631 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,5.46,124.2,1,high
+AL000074,C00344,R2_rapid_movement,2025-04-26,35841.48,4,inbound $35841 moved out within 3 days: $31872 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,low,5.69,123.8,0,high
+AL000235,C00585,R5_geo_velocity,2025-07-02,247.39999999999998,2,card activity in US and ES 1.4 hours apart,,geo_velocity,False,False,medium,6.12,122.5,0,high
+AL000091,C00410,R2_rapid_movement,2025-12-08,39716.86,4,inbound $39717 moved out within 3 days: $36971 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,6.05,120.9,0,high
+AL000154,C00679,R3_round_dollar,2025-08-01,80000.0,3,3 round-dollar transfers (multiples of $1000) totalling $80000 in 30 days,round_dollar,round_dollar,True,True,low,6.03,120.6,0,high
+AL000069,C01602,R2_rapid_movement,2025-09-03,109332.79,2,inbound $109333 moved out within 3 days: $105510 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,6.03,120.6,0,high
+AL000271,C01575,R5_geo_velocity,2025-04-09,1668.3899999999999,2,card activity in ES and MX 1.2 hours apart,geo_velocity,geo_velocity,True,True,high,5.52,120.4,0,high
+AL000433,C01554,R7_cash_intensity,2025-08-01,29221.850000000002,7,cash deposits of $29222 in the month vs expected monthly volume $4000,structuring,structuring,True,True,medium,5.23,119.5,1,high
+AL000439,C01854,R7_cash_intensity,2025-06-01,60340.1,12,cash deposits of $60340 in the month vs expected monthly volume $4900,structuring,structuring,True,True,low,5.2,119.0,1,high
+AL000014,C01144,R1_structuring,2025-08-21,53325.0,6,cash deposits just under $10k: 6 deposits totalling $53325 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,5.23,118.4,1,high
+AL000096,C01198,R2_rapid_movement,2025-04-23,115831.3,2,inbound $115831 moved out within 3 days: $99267 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,5.91,118.2,0,high
+AL000316,C01754,R5_geo_velocity,2025-08-31,768.8399999999999,2,card activity in ES and FR 0.9 hours apart,geo_velocity,geo_velocity,True,True,low,5.87,117.5,0,high
+AL000248,C01973,R5_geo_velocity,2025-11-12,1229.77,2,card activity in FR and MX 3.9 hours apart,geo_velocity,geo_velocity,True,True,low,5.84,116.8,0,high
+AL000305,C01777,R5_geo_velocity,2025-12-09,297.72,2,card activity in IN and US 17.5 hours apart,round_dollar,geo_velocity,False,True,high,4.57,116.5,0,high
+AL000420,C01545,R7_cash_intensity,2025-06-01,16105.99,4,cash deposits of $16106 in the month vs expected monthly volume $1500,,structuring,False,False,low,3.58,114.6,0,high
+AL000072,C01283,R2_rapid_movement,2025-02-11,94834.84,4,inbound $94835 moved out within 3 days: $87349 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,medium,5.7,114.1,0,high
+AL000031,C00835,R1_structuring,2025-03-03,36143.0,4,cash deposits just under $10k: 4 deposits totalling $36143 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,3.69,113.7,1,high
+AL000395,C00356,R6_high_risk_wire,2025-11-05,29329.89,1,wire of $29330 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,5.67,113.4,0,high
+AL000106,C00108,R2_rapid_movement,2025-10-10,22484.39,5,inbound $22484 moved out within 3 days: $61546 in 4 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,low,4.17,113.3,2,high
+AL000087,C00801,R2_rapid_movement,2025-10-12,35071.85,3,inbound $35072 moved out within 3 days: $26588 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,high,5.66,113.1,0,high
+AL000449,C01804,R7_cash_intensity,2025-11-01,36743.29,6,cash deposits of $36743 in the month vs expected monthly volume $1600,structuring,structuring,True,True,low,4.88,112.5,1,high
+AL000201,C00392,R5_geo_velocity,2025-08-31,251.39000000000001,2,card activity in US and MX 2.8 hours apart,geo_velocity,geo_velocity,True,True,low,5.62,112.3,0,high
+AL000307,C00202,R5_geo_velocity,2025-10-07,1819.5,2,card activity in ES and MX 1.2 hours apart,geo_velocity,geo_velocity,True,True,low,3.47,111.8,0,high
+AL000430,C01320,R7_cash_intensity,2025-11-01,50042.09,9,cash deposits of $50042 in the month vs expected monthly volume $2600,structuring,structuring,True,True,low,4.34,111.7,1,high
+AL000003,C00932,R1_structuring,2025-02-21,27225.0,3,cash deposits just under $10k: 3 deposits totalling $27225 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,3.86,111.5,1,high
+AL000177,C01654,R4_dormant_reactivation,2025-11-11,75290.68999999999,6,"no activity for 113 days, then $75291 in 6 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,5.54,110.9,0,high
+AL000224,C01365,R5_geo_velocity,2025-06-17,1253.97,2,card activity in ES and FR 1.2 hours apart,geo_velocity,geo_velocity,True,True,low,5.73,110.9,0,high
+AL000286,C01595,R5_geo_velocity,2025-07-27,475.37,2,card activity in US and ES 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,5.53,110.7,0,high
+AL000116,C00386,R2_rapid_movement,2025-10-12,50000.0,4,inbound $50000 moved out within 3 days: $75944 in 3 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,4.29,110.7,1,high
+AL000459,C00212,R7_cash_intensity,2025-04-01,27557.33,4,cash deposits of $27557 in the month vs expected monthly volume $2700,structuring,structuring,True,True,high,3.8,110.1,1,high
+AL000432,C01042,R7_cash_intensity,2025-04-01,54708.52,8,cash deposits of $54709 in the month vs expected monthly volume $1600,structuring,structuring,True,True,low,5.67,110.1,1,high
+AL000174,C00725,R4_dormant_reactivation,2025-08-04,113082.80999999998,11,"no activity for 149 days, then $113083 in 11 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,4.0,110.1,2,high
+AL000411,C01321,R7_cash_intensity,2025-07-01,46873.16,2,cash deposits of $46873 in the month vs expected monthly volume $3500,dormant_reactivation,structuring,False,True,medium,3.37,109.2,1,high
+AL000002,C00345,R1_structuring,2025-10-16,35096.0,4,cash deposits just under $10k: 4 deposits totalling $35096 across 4 branch(es) in 7 days,structuring,structuring,True,True,medium,3.38,107.7,1,high
+AL000034,C01790,R1_structuring,2025-07-14,34454.0,4,cash deposits just under $10k: 4 deposits totalling $34454 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,3.7,107.5,1,high
+AL000010,C01042,R1_structuring,2025-04-12,53891.0,6,cash deposits just under $10k: 6 deposits totalling $53891 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,5.5,107.5,1,high
+AL000376,C00049,R6_high_risk_wire,2025-05-06,17198.23,1,wire of $17198 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,5.33,106.6,0,high
+AL000149,C00242,R3_round_dollar,2025-07-11,50000.0,4,4 round-dollar transfers (multiples of $1000) totalling $50000 in 30 days,round_dollar,round_dollar,True,True,low,4.06,106.2,0,high
+AL000020,C00024,R1_structuring,2025-03-12,26147.0,3,cash deposits just under $10k: 3 deposits totalling $26147 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,3.25,106.1,1,high
+AL000447,C01610,R7_cash_intensity,2025-11-01,27869.0,3,cash deposits of $27869 in the month vs expected monthly volume $2000,structuring,structuring,True,True,low,4.52,105.5,1,high
+AL000442,C00725,R7_cash_intensity,2025-08-01,37414.35,7,cash deposits of $37414 in the month vs expected monthly volume $700,dormant_reactivation,structuring,False,True,medium,3.76,105.1,2,high
+AL000024,C01371,R1_structuring,2025-02-24,25873.0,3,cash deposits just under $10k: 3 deposits totalling $25873 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,5.29,104.4,1,high
+AL000418,C00538,R7_cash_intensity,2025-10-01,46235.68,9,cash deposits of $46236 in the month vs expected monthly volume $1300,structuring,structuring,True,True,medium,3.57,104.2,1,high
+AL000438,C00108,R7_cash_intensity,2025-10-01,29388.439999999995,3,cash deposits of $29388 in the month vs expected monthly volume $3500,dormant_reactivation,structuring,False,True,low,3.2,104.0,2,high
+AL000390,C00432,R6_high_risk_wire,2025-10-29,15396.03,1,wire of $15396 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,3.74,103.5,0,high
+AL000145,C01383,R3_round_dollar,2025-03-20,70000.0,5,5 round-dollar transfers (multiples of $1000) totalling $70000 in 30 days,round_dollar,round_dollar,True,True,low,3.72,103.0,0,high
+AL000392,C00411,R6_high_risk_wire,2025-10-29,32705.48,1,wire of $32705 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,5.1,102.1,0,high
+AL000029,C01510,R1_structuring,2025-09-02,56385.0,6,cash deposits just under $10k: 6 deposits totalling $56385 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,5.79,101.9,1,high
+AL000183,C01699,R4_dormant_reactivation,2025-11-19,61377.04,10,"no activity for 115 days, then $61377 in 10 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.54,101.2,1,high
+AL000199,C01343,R5_geo_velocity,2025-03-07,216.82,2,card activity in US and MX 13.2 hours apart,,geo_velocity,False,False,low,6.06,100.9,0,high
+AL000179,C01321,R4_dormant_reactivation,2025-07-31,73998.57,8,"no activity for 149 days, then $73999 in 8 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,3.79,100.8,1,high
+AL000016,C01554,R1_structuring,2025-08-19,28502.0,3,cash deposits just under $10k: 3 deposits totalling $28502 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,2.5,100.1,1,high
+AL000319,C00078,R5_geo_velocity,2025-11-18,609.34,2,card activity in US and FR 19.5 hours apart,,geo_velocity,False,False,low,4.97,99.4,0,high
+AL000059,C01602,R2_rapid_movement,2025-09-23,131725.49,2,inbound $131725 moved out within 3 days: $119029 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,4.94,98.9,0,high
+AL000421,C01345,R7_cash_intensity,2025-07-01,33644.81,2,cash deposits of $33645 in the month vs expected monthly volume $2400,dormant_reactivation,structuring,False,True,low,2.8,98.9,1,high
+AL000097,C01558,R2_rapid_movement,2025-05-08,133495.15,2,inbound $133495 moved out within 3 days: $97697 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,4.93,98.7,0,high
+AL000063,C01139,R2_rapid_movement,2025-04-13,129358.54,4,inbound $129359 moved out within 3 days: $102944 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,low,5.9,98.6,0,high
+AL000403,C00356,R6_high_risk_wire,2025-11-24,7156.43,1,wire of $7156 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,3.53,98.3,0,high
+AL000079,C01117,R2_rapid_movement,2025-07-09,25000.0,2,inbound $25000 moved out within 3 days: $20000 in 1 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,2.76,97.8,1,high
+AL000080,C01117,R2_rapid_movement,2025-07-19,20000.0,2,inbound $20000 moved out within 3 days: $25000 in 1 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,3.64,97.7,1,high
+AL000170,C00466,R4_dormant_reactivation,2025-10-04,98936.41,10,"no activity for 127 days, then $98936 in 10 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,3.9,97.5,0,high
+AL000409,C00345,R7_cash_intensity,2025-10-01,40267.880000000005,10,cash deposits of $40268 in the month vs expected monthly volume $11200,structuring,structuring,True,True,medium,2.73,97.0,1,high
+AL000325,C00372,R5_geo_velocity,2025-06-26,1352.04,2,card activity in BR and FR 0.6 hours apart,geo_velocity,geo_velocity,True,True,low,3.47,96.8,0,high
+AL000180,C00688,R4_dormant_reactivation,2025-08-09,149975.75,16,"no activity for 111 days, then $149976 in 16 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,3.86,96.5,0,high
+AL000081,C01375,R2_rapid_movement,2025-09-30,35401.99,2,inbound $35402 moved out within 3 days: $34460 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,3.85,96.4,0,high
+AL000073,C01283,R2_rapid_movement,2025-03-03,109445.15,2,inbound $109445 moved out within 3 days: $85531 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,3.45,96.3,0,high
+AL000212,C00088,R5_geo_velocity,2025-08-28,1231.98,2,card activity in FR and ES 3.5 hours apart,geo_velocity,geo_velocity,True,True,medium,3.45,96.3,0,high
+AL000156,C01440,R3_round_dollar,2025-04-04,65000.0,5,5 round-dollar transfers (multiples of $1000) totalling $65000 in 30 days,round_dollar,round_dollar,True,True,low,5.74,96.1,0,high
+AL000434,C01144,R7_cash_intensity,2025-08-01,53325.0,6,cash deposits of $53325 in the month vs expected monthly volume $1500,structuring,structuring,True,True,low,4.02,95.4,1,high
+AL000071,C00807,R2_rapid_movement,2025-09-23,144604.85,4,inbound $144605 moved out within 3 days: $126321 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,low,4.27,95.3,0,high
+AL000417,C00745,R7_cash_intensity,2025-10-01,44038.85,6,cash deposits of $44039 in the month vs expected monthly volume $5000,structuring,structuring,True,True,medium,3.98,94.6,1,high
+AL000130,C01904,R3_round_dollar,2025-05-03,160000.0,7,7 round-dollar transfers (multiples of $1000) totalling $160000 in 30 days,round_dollar,round_dollar,True,True,low,3.94,93.9,1,high
+AL000450,C01335,R7_cash_intensity,2025-06-01,59584.28,9,cash deposits of $59584 in the month vs expected monthly volume $1600,structuring,structuring,True,True,low,3.43,93.5,1,high
+AL000105,C01387,R2_rapid_movement,2025-03-23,110850.07,2,inbound $110850 moved out within 3 days: $79668 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,4.63,92.6,0,high
+AL000399,C00356,R6_high_risk_wire,2025-11-13,14677.2,1,wire of $14677 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,4.12,92.5,0,high
+AL000298,C00264,R5_geo_velocity,2025-06-04,864.74,2,card activity in GB and US 0.9 hours apart,geo_velocity,geo_velocity,True,True,medium,3.69,92.3,0,high
+AL000205,C01153,R5_geo_velocity,2025-02-15,325.03,2,card activity in US and IT 4.4 hours apart,dormant_reactivation,geo_velocity,False,True,low,4.05,91.0,0,high
+AL000009,C00986,R1_structuring,2025-04-17,53190.0,6,cash deposits just under $10k: 6 deposits totalling $53190 across 6 branch(es) in 7 days,structuring,structuring,True,True,low,3.01,90.3,1,high
+AL000190,C01125,R4_dormant_reactivation,2025-10-15,124520.8,12,"no activity for 152 days, then $124521 in 12 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,high,2.49,89.6,1,high
+AL000458,C00024,R7_cash_intensity,2025-03-01,26147.0,3,cash deposits of $26147 in the month vs expected monthly volume $2900,structuring,structuring,True,True,low,2.98,89.5,1,high
+AL000021,C00212,R1_structuring,2025-04-13,26819.0,3,cash deposits just under $10k: 3 deposits totalling $26819 across 2 branch(es) in 7 days,structuring,structuring,True,True,high,2.57,89.2,1,high
+AL000431,C01530,R7_cash_intensity,2025-12-01,18729.13,4,cash deposits of $18729 in the month vs expected monthly volume $3200,dormant_reactivation,structuring,False,True,low,2.13,89.0,1,high
+AL000092,C01390,R2_rapid_movement,2025-12-16,20901.75,2,inbound $20902 moved out within 3 days: $23220 in 1 transfer(s) to 1 country(ies),,rapid_movement,False,False,low,3.16,89.0,0,high
+AL000088,C01196,R2_rapid_movement,2025-06-06,83723.21,3,inbound $83723 moved out within 3 days: $54262 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,3.56,88.9,0,high
+AL000155,C01086,R3_round_dollar,2025-03-01,100000.0,4,4 round-dollar transfers (multiples of $1000) totalling $100000 in 30 days,round_dollar,round_dollar,True,True,low,5.91,88.6,0,high
+AL000000,C00745,R1_structuring,2025-10-26,43873.0,5,cash deposits just under $10k: 5 deposits totalling $43873 across 5 branch(es) in 7 days,structuring,structuring,True,True,medium,3.67,88.4,1,high
+AL000126,C01641,R3_round_dollar,2025-03-06,30000.0,3,3 round-dollar transfers (multiples of $1000) totalling $30000 in 30 days,round_dollar,round_dollar,True,True,low,3.88,87.6,0,high
+AL000330,C01480,R5_geo_velocity,2025-09-01,400.41999999999996,2,card activity in IN and US 14.2 hours apart,,geo_velocity,False,False,low,5.83,87.5,0,high
+AL000314,C01482,R5_geo_velocity,2025-04-14,254.65,2,card activity in US and IN 6.4 hours apart,,geo_velocity,False,False,low,3.49,87.3,0,high
+AL000246,C01422,R5_geo_velocity,2025-07-22,314.46000000000004,2,card activity in IT and US 1.6 hours apart,high_risk_wires,geo_velocity,False,True,medium,3.15,87.2,1,high
+AL000389,C00192,R6_high_risk_wire,2025-10-29,23162.1,1,wire of $23162 to high-risk jurisdiction AF,high_risk_wires,high_risk_wires,True,True,low,3.47,86.8,0,high
+AL000025,C00720,R1_structuring,2025-06-09,45480.0,5,cash deposits just under $10k: 5 deposits totalling $45480 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,2.87,86.7,1,high
+AL000019,C00015,R1_structuring,2025-08-05,46285.0,5,cash deposits just under $10k: 5 deposits totalling $46285 across 5 branch(es) in 7 days,structuring,structuring,True,True,medium,1.86,86.5,1,high
+AL000294,C01208,R5_geo_velocity,2025-06-23,1308.28,2,card activity in US and GB 1.9 hours apart,geo_velocity,geo_velocity,True,True,medium,3.81,86.2,0,high
+AL000138,C01043,R3_round_dollar,2025-02-18,65000.0,5,5 round-dollar transfers (multiples of $1000) totalling $65000 in 30 days,round_dollar,round_dollar,True,True,medium,2.53,86.0,0,high
+AL000184,C01308,R4_dormant_reactivation,2025-11-29,132353.67,23,"no activity for 141 days, then $132354 in 23 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,high,5.73,85.9,0,high
+AL000385,C00432,R6_high_risk_wire,2025-10-21,15278.87,1,wire of $15279 to high-risk jurisdiction IR,high_risk_wires,high_risk_wires,True,True,low,3.77,85.3,0,high
+AL000415,C01510,R7_cash_intensity,2025-09-01,58754.75,7,cash deposits of $58755 in the month vs expected monthly volume $2500,structuring,structuring,True,True,low,1.81,85.3,1,high
+AL000436,C01392,R7_cash_intensity,2025-02-01,28631.0,3,cash deposits of $28631 in the month vs expected monthly volume $2200,structuring,structuring,True,True,medium,3.48,84.7,1,high
+AL000405,C01265,R6_high_risk_wire,2025-11-26,38808.97,1,wire of $38809 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,high,2.82,84.5,0,high
+AL000277,C01208,R5_geo_velocity,2025-06-14,1063.1599999999999,2,card activity in GB and ES 1.2 hours apart,geo_velocity,geo_velocity,True,True,medium,3.71,84.3,0,high
+AL000377,C00701,R6_high_risk_wire,2025-02-18,29802.89,1,wire of $29803 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,medium,3.71,84.2,0,high
+AL000089,C00381,R2_rapid_movement,2025-09-15,24890.07,5,inbound $24890 moved out within 3 days: $61987 in 4 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,medium,2.2,84.1,2,high
+AL000082,C01273,R2_rapid_movement,2025-10-10,112597.46,4,inbound $112597 moved out within 3 days: $78819 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,low,3.36,84.0,0,high
+AL000348,C01421,R6_high_risk_wire,2025-10-09,41859.83,1,wire of $41860 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,2.46,83.8,0,high
+AL000265,C01595,R5_geo_velocity,2025-03-22,434.28,2,card activity in CA and US 3.8 hours apart,geo_velocity,geo_velocity,True,True,low,2.46,83.7,0,high
+AL000335,C01472,R6_high_risk_wire,2025-08-26,30077.82,1,wire of $30078 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,4.19,83.7,0,high
+AL000238,C01384,R5_geo_velocity,2025-04-27,668.99,2,card activity in ES and GB 1.2 hours apart,geo_velocity,geo_velocity,True,True,low,5.57,83.6,0,high
+AL000243,C00588,R5_geo_velocity,2025-12-23,1418.69,2,card activity in FR and ES 0.5 hours apart,geo_velocity,geo_velocity,True,True,low,2.78,83.4,0,high
+AL000361,C00988,R6_high_risk_wire,2025-07-07,59258.13,1,wire of $59258 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,4.89,83.3,0,high
+AL000213,C00202,R5_geo_velocity,2025-09-28,1118.53,2,card activity in US and GB 1.5 hours apart,geo_velocity,geo_velocity,True,True,low,2.77,83.1,0,high
+AL000047,C01429,R1_structuring,2025-04-01,27325.0,3,cash deposits just under $10k: 3 deposits totalling $27325 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,3.4,83.1,1,high
+AL000284,C00588,R5_geo_velocity,2025-12-05,1174.58,2,card activity in FR and MX 1.4 hours apart,geo_velocity,geo_velocity,True,True,low,2.77,83.1,0,high
+AL000175,C00142,R4_dormant_reactivation,2025-09-25,119024.43999999997,21,"no activity for 140 days, then $119024 in 21 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.32,83.0,1,high
+AL000198,C00790,R5_geo_velocity,2025-03-18,278.35,2,card activity in US and BR 12.5 hours apart,,geo_velocity,False,False,low,2.76,82.9,0,high
+AL000159,C00506,R3_round_dollar,2025-03-28,120000.0,6,6 round-dollar transfers (multiples of $1000) totalling $120000 in 30 days,round_dollar,round_dollar,True,True,high,3.31,82.7,0,high
+AL000220,C00260,R5_geo_velocity,2025-04-29,1950.2799999999997,2,card activity in US and BR 2.9 hours apart,geo_velocity,geo_velocity,True,True,medium,2.75,82.6,0,high
+AL000244,C01203,R5_geo_velocity,2025-05-16,345.07,2,card activity in IT and US 17.9 hours apart,,geo_velocity,False,False,low,3.62,82.5,0,high
+AL000306,C00112,R5_geo_velocity,2025-11-24,304.65999999999997,2,card activity in NL and CA 15.7 hours apart,,geo_velocity,False,False,medium,4.12,82.5,0,high
+AL000107,C00972,R2_rapid_movement,2025-06-03,54552.49,3,inbound $54552 moved out within 3 days: $50827 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,5.5,82.5,0,high
+AL000343,C00507,R6_high_risk_wire,2025-10-01,42874.71,1,wire of $42875 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,2.9,82.4,0,high
+AL000200,C01581,R5_geo_velocity,2025-06-08,950.76,2,card activity in ES and US 2.7 hours apart,geo_velocity,geo_velocity,True,True,low,5.49,82.4,0,high
+AL000131,C00506,R3_round_dollar,2025-04-03,100000.0,5,5 round-dollar transfers (multiples of $1000) totalling $100000 in 30 days,round_dollar,round_dollar,True,True,high,3.62,82.4,0,high
+AL000328,C01157,R5_geo_velocity,2025-07-12,207.88,2,card activity in US and MX 17.6 hours apart,,geo_velocity,False,False,medium,2.74,82.1,0,high
+AL000331,C01575,R5_geo_velocity,2025-04-17,1043.78,2,card activity in ES and FR 0.9 hours apart,geo_velocity,geo_velocity,True,True,high,4.11,82.1,0,high
+AL000193,C01954,R4_dormant_reactivation,2025-10-24,112413.17,14,"no activity for 143 days, then $112413 in 14 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,3.36,82.1,1,high
+AL000382,C00507,R6_high_risk_wire,2025-10-16,48096.68,1,wire of $48097 to high-risk jurisdiction IR,high_risk_wires,high_risk_wires,True,True,low,2.28,82.0,0,high
+AL000115,C00907,R2_rapid_movement,2025-04-26,110887.36,2,inbound $110887 moved out within 3 days: $108115 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,3.27,81.7,0,high
+AL000171,C00108,R4_dormant_reactivation,2025-10-09,142696.11000000002,10,"no activity for 130 days, then $142696 in 10 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,1.71,81.3,2,high
+AL000461,C00526,R7_cash_intensity,2025-08-01,57101.17,3,cash deposits of $57101 in the month vs expected monthly volume $2700,dormant_reactivation,structuring,False,True,medium,3.31,81.2,1,high
+AL000123,C01117,R3_round_dollar,2025-07-09,145000.0,6,6 round-dollar transfers (multiples of $1000) totalling $145000 in 30 days,round_dollar,round_dollar,True,True,low,2.2,81.0,1,high
+AL000260,C00967,R5_geo_velocity,2025-08-11,391.72,2,card activity in MX and GB 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,4.05,80.9,0,high
+AL000027,C01610,R1_structuring,2025-10-31,36433.0,4,cash deposits just under $10k: 4 deposits totalling $36433 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,2.19,80.8,1,high
+AL000362,C00620,R6_high_risk_wire,2025-07-07,6439.19,1,wire of $6439 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,high,4.03,80.7,0,high
+AL000176,C00058,R4_dormant_reactivation,2025-10-13,138370.18000000002,11,"no activity for 158 days, then $138370 in 11 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.17,80.2,1,high
+AL000038,C01144,R1_structuring,2025-08-25,26576.0,3,cash deposits just under $10k: 3 deposits totalling $26576 across 2 branch(es) in 7 days,structuring,structuring,True,True,low,1.83,80.0,1,high
+AL000293,C00542,R5_geo_velocity,2025-12-22,953.02,2,card activity in FR and BR 3.4 hours apart,geo_velocity,geo_velocity,True,True,low,4.0,79.9,0,high
+AL000128,C00498,R3_round_dollar,2025-06-15,40000.0,5,5 round-dollar transfers (multiples of $1000) totalling $40000 in 30 days,round_dollar,round_dollar,True,True,low,3.98,79.7,0,high
+AL000444,C01564,R7_cash_intensity,2025-09-01,29742.469999999998,2,cash deposits of $29742 in the month vs expected monthly volume $4000,dormant_reactivation,structuring,False,True,medium,3.23,79.7,1,high
+AL000336,C01470,R6_high_risk_wire,2025-08-29,55219.46,1,wire of $55219 to high-risk jurisdiction SY,high_risk_wires,high_risk_wires,True,True,low,5.31,79.6,0,high
+AL000452,C01790,R7_cash_intensity,2025-07-01,34566.0,5,cash deposits of $34566 in the month vs expected monthly volume $6300,structuring,structuring,True,True,low,1.81,79.3,1,high
+AL000032,C01335,R1_structuring,2025-06-15,54976.0,6,cash deposits just under $10k: 6 deposits totalling $54976 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,3.19,78.8,1,high
+AL000338,C01472,R6_high_risk_wire,2025-09-21,38179.5,1,wire of $38180 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,3.92,78.5,0,high
+AL000386,C00586,R6_high_risk_wire,2025-10-23,22974.18,1,wire of $22974 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,medium,3.41,78.2,0,high
+AL000223,C00967,R5_geo_velocity,2025-09-06,874.95,2,card activity in BR and GB 3.6 hours apart,geo_velocity,geo_velocity,True,True,low,5.19,77.9,0,high
+AL000051,C01541,R1_structuring,2025-06-13,44142.0,5,cash deposits just under $10k: 5 deposits totalling $44142 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,3.14,77.9,1,high
+AL000012,C01320,R1_structuring,2025-11-24,43476.0,5,cash deposits just under $10k: 5 deposits totalling $43476 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,3.13,77.6,1,high
+AL000322,C00264,R5_geo_velocity,2025-05-26,1229.42,2,card activity in ES and GB 0.8 hours apart,geo_velocity,geo_velocity,True,True,medium,1.75,77.4,0,high
+AL000304,C01374,R5_geo_velocity,2025-09-11,323.37,2,card activity in MX and US 1.9 hours apart,,geo_velocity,False,False,low,2.09,77.2,0,high
+AL000251,C01365,R5_geo_velocity,2025-06-28,1274.67,2,card activity in BR and GB 2.5 hours apart,geo_velocity,geo_velocity,True,True,low,3.36,77.1,0,high
+AL000352,C00988,R6_high_risk_wire,2025-06-10,39759.9,1,wire of $39760 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,low,5.14,77.1,0,high
+AL000346,C01826,R6_high_risk_wire,2025-10-02,46594.45,1,wire of $46594 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,3.84,76.9,0,high
+AL000218,C01879,R5_geo_velocity,2025-03-17,1742.52,2,card activity in GB and FR 4.0 hours apart,geo_velocity,geo_velocity,True,True,low,3.84,76.8,0,high
+AL000108,C00546,R2_rapid_movement,2025-06-18,20692.32,2,inbound $20692 moved out within 3 days: $24149 in 1 transfer(s) to 1 country(ies),,rapid_movement,False,False,medium,3.83,76.6,0,high
+AL000283,C00542,R5_geo_velocity,2025-11-25,1020.26,2,card activity in FR and US 2.5 hours apart,geo_velocity,geo_velocity,True,True,low,3.07,76.6,0,high
+AL000249,C01974,R5_geo_velocity,2025-07-15,320.72,2,card activity in US and FR 8.5 hours apart,,geo_velocity,False,False,medium,3.83,76.5,0,high
+AL000194,C00381,R4_dormant_reactivation,2025-09-12,166720.71000000002,15,"no activity for 151 days, then $166721 in 15 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,4.58,75.8,2,high
+AL000334,C01215,R6_high_risk_wire,2025-08-20,43714.48,1,wire of $43714 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,3.79,75.7,0,high
+AL000162,C00182,R3_round_dollar,2025-06-30,120000.0,6,6 round-dollar transfers (multiples of $1000) totalling $120000 in 30 days,round_dollar,round_dollar,True,True,low,3.28,75.6,0,high
+AL000359,C00609,R6_high_risk_wire,2025-07-06,25198.0,1,wire of $25198 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,2.51,75.2,0,high
+AL000270,C00624,R5_geo_velocity,2025-06-20,689.9300000000001,2,card activity in BR and FR 2.6 hours apart,geo_velocity,geo_velocity,True,True,low,3.76,75.2,0,high
+AL000221,C00542,R5_geo_velocity,2025-12-13,756.52,2,card activity in GB and BR 3.7 hours apart,geo_velocity,geo_velocity,True,True,low,2.51,75.2,0,high
+AL000263,C01581,R5_geo_velocity,2025-05-31,991.04,2,card activity in MX and GB 1.4 hours apart,geo_velocity,geo_velocity,True,True,low,3.73,74.6,0,high
+AL000134,C00630,R3_round_dollar,2025-11-12,160000.0,7,7 round-dollar transfers (multiples of $1000) totalling $160000 in 30 days,round_dollar,round_dollar,True,True,low,1.98,74.5,0,high
+AL000427,C00835,R7_cash_intensity,2025-03-01,36514.66,5,cash deposits of $36515 in the month vs expected monthly volume $1800,structuring,structuring,True,True,low,2.97,74.5,1,high
+AL000266,C01595,R5_geo_velocity,2025-07-20,1652.74,2,card activity in US and GB 2.0 hours apart,geo_velocity,geo_velocity,True,True,low,2.15,74.5,0,high
+AL000396,C01826,R6_high_risk_wire,2025-11-06,45898.93,1,wire of $45899 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,3.72,74.4,0,high
+AL000384,C01916,R6_high_risk_wire,2025-10-18,18712.01,1,wire of $18712 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,3.71,74.1,0,high
+AL000340,C01826,R6_high_risk_wire,2025-09-27,40503.49,1,wire of $40503 to high-risk jurisdiction SY,high_risk_wires,high_risk_wires,True,True,low,4.93,74.0,0,high
+AL000188,C01218,R4_dormant_reactivation,2025-07-25,112906.61000000002,9,"no activity for 121 days, then $112907 in 9 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.94,73.9,1,high
+AL000191,C00056,R4_dormant_reactivation,2025-09-04,132236.91,12,"no activity for 156 days, then $132237 in 12 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.46,73.9,0,high
+AL000344,C00586,R6_high_risk_wire,2025-10-02,46758.97,1,wire of $46759 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,medium,2.46,73.9,0,high
+AL000267,C01927,R5_geo_velocity,2025-02-20,235.79000000000002,2,card activity in US and ES 16.3 hours apart,,geo_velocity,False,False,low,4.92,73.8,0,high
+AL000040,C01797,R1_structuring,2025-04-13,34964.0,4,cash deposits just under $10k: 4 deposits totalling $34964 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,4.91,73.7,0,high
+AL000141,C01903,R3_round_dollar,2025-07-10,105000.0,5,5 round-dollar transfers (multiples of $1000) totalling $105000 in 30 days,round_dollar,round_dollar,True,True,low,4.9,73.5,0,high
+AL000455,C01954,R7_cash_intensity,2025-10-01,34204.270000000004,3,cash deposits of $34204 in the month vs expected monthly volume $8100,dormant_reactivation,structuring,False,True,low,2.92,73.4,1,high
+AL000378,C01887,R6_high_risk_wire,2025-02-18,20129.15,1,wire of $20129 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,2.44,73.3,0,high
+AL000139,C01086,R3_round_dollar,2025-02-28,125000.0,5,5 round-dollar transfers (multiples of $1000) totalling $125000 in 30 days,round_dollar,round_dollar,True,True,low,4.88,73.3,0,high
+AL000017,C01532,R1_structuring,2025-10-11,26835.0,3,cash deposits just under $10k: 3 deposits totalling $26835 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,2.91,73.2,1,high
+AL000209,C01968,R5_geo_velocity,2025-11-22,277.55,2,card activity in US and IT 14.8 hours apart,,geo_velocity,False,False,low,3.66,73.2,0,high
+AL000167,C01564,R4_dormant_reactivation,2025-09-21,97896.37999999999,9,"no activity for 102 days, then $97896 in 9 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,3.87,73.1,1,high
+AL000358,C00620,R6_high_risk_wire,2025-07-06,23414.0,1,wire of $23414 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,high,3.65,73.0,0,high
+AL000041,C01610,R1_structuring,2025-11-03,18129.0,2,cash deposits just under $10k: 2 deposits totalling $18129 across 2 branch(es) in 7 days,structuring,structuring,True,True,low,2.39,72.8,1,high
+AL000355,C00135,R6_high_risk_wire,2025-06-21,32651.14,1,wire of $32651 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,2.9,72.5,0,high
+AL000048,C01798,R1_structuring,2025-08-12,26024.0,3,cash deposits just under $10k: 3 deposits totalling $26024 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,3.62,72.4,0,high
+AL000067,C00536,R2_rapid_movement,2025-07-12,145029.15,3,inbound $145029 moved out within 3 days: $137096 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,3.11,72.2,0,high
+AL000023,C01030,R1_structuring,2025-09-13,55634.0,6,cash deposits just under $10k: 6 deposits totalling $55634 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,2.11,71.7,1,high
+AL000018,C01819,R1_structuring,2025-08-11,36769.0,4,cash deposits just under $10k: 4 deposits totalling $36769 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,2.26,71.4,1,high
+AL000337,C01470,R6_high_risk_wire,2025-09-03,26081.16,1,wire of $26081 to high-risk jurisdiction AF,high_risk_wires,high_risk_wires,True,True,low,3.06,71.2,0,high
+AL000404,C01916,R6_high_risk_wire,2025-11-24,41136.53,1,wire of $41137 to high-risk jurisdiction SY,high_risk_wires,high_risk_wires,True,True,low,3.55,71.1,0,high
+AL000129,C01885,R3_round_dollar,2025-04-13,70000.0,6,6 round-dollar transfers (multiples of $1000) totalling $70000 in 30 days,round_dollar,round_dollar,True,True,low,3.55,71.0,0,high
+AL000197,C00588,R5_geo_velocity,2025-11-24,1170.5,2,card activity in FR and US 3.6 hours apart,geo_velocity,geo_velocity,True,True,low,4.58,70.8,0,high
+AL000036,C00538,R1_structuring,2025-10-01,44049.0,5,cash deposits just under $10k: 5 deposits totalling $44049 across 5 branch(es) in 7 days,structuring,structuring,True,True,medium,2.22,70.5,1,high
+AL000456,C00683,R7_cash_intensity,2025-11-01,49166.47,7,cash deposits of $49166 in the month vs expected monthly volume $13700,structuring,structuring,True,True,medium,2.24,69.8,1,high
+AL000146,C01495,R3_round_dollar,2025-11-21,115000.0,5,5 round-dollar transfers (multiples of $1000) totalling $115000 in 30 days,round_dollar,round_dollar,True,True,low,3.48,69.6,0,high
+AL000254,C01575,R5_geo_velocity,2025-04-27,1834.8400000000001,2,card activity in BR and FR 1.7 hours apart,geo_velocity,geo_velocity,True,True,high,2.98,69.5,0,high
+AL000393,C01826,R6_high_risk_wire,2025-10-30,11494.07,1,wire of $11494 to high-risk jurisdiction AF,high_risk_wires,high_risk_wires,True,True,low,4.62,69.3,0,high
+AL000301,C01754,R5_geo_velocity,2025-09-08,786.27,2,card activity in BR and FR 2.0 hours apart,geo_velocity,geo_velocity,True,True,low,4.55,68.3,0,high
+AL000101,C01558,R2_rapid_movement,2025-05-28,74436.84,3,inbound $74437 moved out within 3 days: $48925 in 2 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,4.51,67.7,0,high
+AL000222,C00913,R5_geo_velocity,2025-04-27,402.38,2,card activity in US and GB 11.0 hours apart,,geo_velocity,False,False,low,3.38,67.6,0,high
+AL000104,C00083,R2_rapid_movement,2025-09-18,27830.76,4,inbound $27831 moved out within 3 days: $37282 in 3 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,high,3.74,67.4,2,high
+AL000429,C01819,R7_cash_intensity,2025-08-01,37391.979999999996,6,cash deposits of $37392 in the month vs expected monthly volume $3100,structuring,structuring,True,True,low,2.61,67.1,1,high
+AL000367,C01887,R6_high_risk_wire,2025-03-19,54782.06,1,wire of $54782 to high-risk jurisdiction AF,high_risk_wires,high_risk_wires,True,True,low,3.35,67.0,0,high
+AL000102,C01934,R2_rapid_movement,2025-06-05,46547.82,2,inbound $46548 moved out within 3 days: $44252 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,3.32,66.4,0,high
+AL000287,C01748,R5_geo_velocity,2025-03-21,972.1299999999999,2,card activity in GB and ES 1.1 hours apart,geo_velocity,geo_velocity,True,True,medium,3.31,66.1,0,high
+AL000424,C01125,R7_cash_intensity,2025-10-01,66393.68,4,cash deposits of $66394 in the month vs expected monthly volume $4400,dormant_reactivation,structuring,False,True,high,1.7,66.1,1,high
+AL000195,C00083,R4_dormant_reactivation,2025-09-18,132415.55000000002,15,"no activity for 111 days, then $132416 in 15 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,high,2.4,66.0,2,high
+AL000111,C00807,R2_rapid_movement,2025-09-03,102713.97,4,inbound $102714 moved out within 3 days: $91218 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,3.3,66.0,0,high
+AL000189,C01072,R4_dormant_reactivation,2025-08-18,149725.96,7,"no activity for 119 days, then $149726 in 7 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,2.55,65.9,1,high
+AL000098,C00058,R2_rapid_movement,2025-10-14,21364.1,3,inbound $21364 moved out within 3 days: $23915 in 2 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,low,1.69,65.8,1,high
+AL000137,C01641,R3_round_dollar,2025-02-27,100000.0,5,5 round-dollar transfers (multiples of $1000) totalling $100000 in 30 days,round_dollar,round_dollar,True,True,low,2.19,65.6,0,high
+AL000365,C01422,R6_high_risk_wire,2025-07-18,41962.8,1,wire of $41963 to high-risk jurisdiction AF,high_risk_wires,high_risk_wires,True,True,medium,2.69,65.4,1,high
+AL000272,C00088,R5_geo_velocity,2025-08-20,1656.9099999999999,2,card activity in BR and US 3.9 hours apart,geo_velocity,geo_velocity,True,True,medium,2.18,65.3,0,high
+AL000443,C01386,R7_cash_intensity,2025-08-01,32479.920000000002,2,cash deposits of $32480 in the month vs expected monthly volume $3600,dormant_reactivation,structuring,False,True,high,2.01,65.2,1,high
+AL000289,C00041,R5_geo_velocity,2025-09-18,535.69,2,card activity in ES and US 0.1 hours apart,geo_velocity,geo_velocity,True,True,medium,1.84,65.2,0,high
+AL000230,C01973,R5_geo_velocity,2025-11-20,1319.2399999999998,2,card activity in FR and MX 1.9 hours apart,geo_velocity,geo_velocity,True,True,low,3.25,65.1,0,high
+AL000208,C01912,R5_geo_velocity,2025-08-29,1311.69,2,card activity in US and FR 1.9 hours apart,geo_velocity,geo_velocity,True,True,medium,2.17,65.1,0,high
+AL000039,C01606,R1_structuring,2025-07-04,54277.0,6,cash deposits just under $10k: 6 deposits totalling $54277 across 6 branch(es) in 7 days,structuring,structuring,True,True,low,4.0,65.0,1,high
+AL000120,C00196,R2_rapid_movement,2025-09-28,89476.98,5,inbound $89477 moved out within 3 days: $85308 in 4 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,medium,4.0,65.0,0,high
+AL000269,C00542,R5_geo_velocity,2025-12-04,1304.72,2,card activity in ES and BR 3.4 hours apart,geo_velocity,geo_velocity,True,True,low,3.25,65.0,0,high
+AL000372,C00957,R6_high_risk_wire,2025-05-02,24507.33,1,wire of $24507 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,2.59,64.8,0,high
+AL000468,C00758,R7_cash_intensity,2025-08-01,28942.18,4,cash deposits of $28942 in the month vs expected monthly volume $4700,structuring,structuring,True,True,medium,2.64,64.7,1,high
+AL000290,C00260,R5_geo_velocity,2025-05-07,1361.6100000000001,2,card activity in FR and US 1.5 hours apart,geo_velocity,geo_velocity,True,True,medium,2.59,64.6,0,high
+AL000397,C00192,R6_high_risk_wire,2025-11-06,54253.03,1,wire of $54253 to high-risk jurisdiction IR,high_risk_wires,high_risk_wires,True,True,low,2.15,64.6,0,high
+AL000121,C00111,R3_round_dollar,2025-07-01,175000.0,5,5 round-dollar transfers (multiples of $1000) totalling $175000 in 30 days,round_dollar,round_dollar,True,True,low,1.97,64.3,1,high
+AL000423,C00083,R7_cash_intensity,2025-09-01,25778.21,1,cash deposits of $25778 in the month vs expected monthly volume $1600,dormant_reactivation,structuring,False,True,high,2.28,64.3,2,high
+AL000302,C00343,R5_geo_velocity,2025-09-16,748.46,2,card activity in MX and GB 1.0 hours apart,geo_velocity,geo_velocity,True,True,low,2.14,64.2,0,high
+AL000090,C01727,R2_rapid_movement,2025-11-16,20651.37,2,inbound $20651 moved out within 3 days: $19747 in 1 transfer(s) to 1 country(ies),,rapid_movement,False,False,high,1.79,63.8,0,high
+AL000052,C00272,R2_rapid_movement,2025-02-10,78943.35,5,inbound $78943 moved out within 3 days: $58826 in 4 transfer(s) to 4 country(ies),rapid_movement,rapid_movement,True,True,low,2.13,63.8,0,high
+AL000033,C01804,R1_structuring,2025-11-29,36043.0,4,cash deposits just under $10k: 4 deposits totalling $36043 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,2.44,63.8,1,high
+AL000112,C00035,R2_rapid_movement,2025-02-17,20000.0,2,inbound $20000 moved out within 3 days: $50000 in 1 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,2.43,63.7,1,high
+AL000419,C00720,R7_cash_intensity,2025-06-01,46274.78,6,cash deposits of $46275 in the month vs expected monthly volume $900,structuring,structuring,True,True,low,4.84,63.4,1,high
+AL000083,C00637,R2_rapid_movement,2025-02-06,36348.41,4,inbound $36348 moved out within 3 days: $22291 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,high,3.17,63.4,0,high
+AL000053,C01069,R2_rapid_movement,2025-03-31,110819.41,4,inbound $110819 moved out within 3 days: $91688 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,high,1.78,63.3,0,high
+AL000408,C00950,R6_high_risk_wire,2025-12-20,28601.26,1,wire of $28601 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,2.11,63.2,0,high
+AL000463,C01371,R7_cash_intensity,2025-02-01,44162.0,5,cash deposits of $44162 in the month vs expected monthly volume $2000,structuring,structuring,True,True,low,2.4,63.0,1,high
+AL000353,C00049,R6_high_risk_wire,2025-06-13,34894.58,1,wire of $34895 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,1.77,63.0,0,high
+AL000196,C00211,R5_geo_velocity,2025-10-24,786.52,2,card activity in GB and BR 3.4 hours apart,geo_velocity,geo_velocity,True,True,medium,3.74,62.4,0,high
+AL000300,C01365,R5_geo_velocity,2025-06-09,1595.3899999999999,2,card activity in BR and US 1.3 hours apart,geo_velocity,geo_velocity,True,True,low,1.48,61.9,0,high
+AL000122,C00534,R3_round_dollar,2025-11-04,100000.0,4,4 round-dollar transfers (multiples of $1000) totalling $100000 in 30 days,round_dollar,round_dollar,True,True,medium,2.45,61.2,0,high
+AL000371,C00094,R6_high_risk_wire,2025-04-30,58778.64,1,wire of $58779 to high-risk jurisdiction IR,high_risk_wires,high_risk_wires,True,True,low,3.06,61.1,0,high
+AL000064,C01165,R2_rapid_movement,2025-12-15,27420.74,3,inbound $27421 moved out within 3 days: $22029 in 2 transfer(s) to 1 country(ies),,rapid_movement,False,False,low,2.55,61.0,0,high
+AL000462,C00932,R7_cash_intensity,2025-02-01,29615.16,5,cash deposits of $29615 in the month vs expected monthly volume $6200,structuring,structuring,True,True,medium,4.58,60.8,1,high
+AL000400,C01265,R6_high_risk_wire,2025-11-23,56249.84,1,wire of $56250 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,high,2.42,60.6,0,high
+AL000227,C01581,R5_geo_velocity,2025-06-27,1603.24,2,card activity in FR and US 3.7 hours apart,geo_velocity,geo_velocity,True,True,low,3.0,60.1,0,high
+AL000460,C00986,R7_cash_intensity,2025-04-01,53949.93,8,cash deposits of $53950 in the month vs expected monthly volume $2100,structuring,structuring,True,True,low,2.25,60.0,1,high
+AL000046,C01012,R1_structuring,2025-08-18,44800.0,5,cash deposits just under $10k: 5 deposits totalling $44800 across 5 branch(es) in 7 days,structuring,structuring,True,True,low,2.32,59.8,1,medium
+AL000216,C01331,R5_geo_velocity,2025-05-03,453.43,2,card activity in IT and US 7.1 hours apart,,geo_velocity,False,False,medium,2.98,59.5,0,medium
+AL000426,C01530,R7_cash_intensity,2025-11-01,15571.39,1,cash deposits of $15571 in the month vs expected monthly volume $3200,dormant_reactivation,structuring,False,True,low,2.23,59.5,1,medium
+AL000011,C01254,R1_structuring,2025-03-25,35598.0,4,cash deposits just under $10k: 4 deposits totalling $35598 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,2.97,59.5,1,medium
+AL000317,C00006,R5_geo_velocity,2025-10-30,394.24,2,card activity in MX and US 3.3 hours apart,geo_velocity,geo_velocity,True,True,low,2.97,59.4,0,medium
+AL000037,C00683,R1_structuring,2025-11-03,27710.0,3,cash deposits just under $10k: 3 deposits totalling $27710 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,4.42,59.2,1,medium
+AL000274,C00339,R5_geo_velocity,2025-12-17,1263.29,2,card activity in US and GB 2.9 hours apart,geo_velocity,geo_velocity,True,True,low,2.37,59.2,0,medium
+AL000437,C00394,R7_cash_intensity,2025-02-01,36581.88,5,cash deposits of $36582 in the month vs expected monthly volume $700,structuring,structuring,True,True,low,4.42,59.2,1,medium
+AL000242,C00339,R5_geo_velocity,2025-11-19,1435.02,2,card activity in GB and MX 2.4 hours apart,geo_velocity,geo_velocity,True,True,low,1.12,58.7,0,medium
+AL000058,C01072,R2_rapid_movement,2025-08-22,26724.77,2,inbound $26725 moved out within 3 days: $28930 in 1 transfer(s) to 1 country(ies),dormant_reactivation,rapid_movement,False,True,medium,4.37,58.7,1,medium
+AL000060,C01702,R2_rapid_movement,2025-03-18,74552.55,2,inbound $74553 moved out within 3 days: $69748 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,2.92,58.4,0,medium
+AL000206,C01356,R5_geo_velocity,2025-11-02,757.73,2,card activity in MX and GB 3.6 hours apart,geo_velocity,geo_velocity,True,True,low,2.42,58.4,0,medium
+AL000446,C00869,R7_cash_intensity,2025-10-01,21762.17,1,cash deposits of $21762 in the month vs expected monthly volume $3000,dormant_reactivation,structuring,False,True,low,1.34,58.4,1,medium
+AL000054,C00788,R2_rapid_movement,2025-05-11,149275.08,4,inbound $149275 moved out within 3 days: $120238 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,3.32,58.2,0,medium
+AL000295,C01356,R5_geo_velocity,2025-10-06,716.85,2,card activity in US and ES 3.1 hours apart,geo_velocity,geo_velocity,True,True,low,2.9,58.1,0,medium
+AL000151,C01495,R3_round_dollar,2025-12-02,45000.0,3,3 round-dollar transfers (multiples of $1000) totalling $45000 in 30 days,round_dollar,round_dollar,True,True,low,2.32,58.0,0,medium
+AL000004,C01030,R1_structuring,2025-09-16,18756.0,2,cash deposits just under $10k: 2 deposits totalling $18756 across 2 branch(es) in 7 days,structuring,structuring,True,True,low,2.86,57.9,1,medium
+AL000173,C01345,R4_dormant_reactivation,2025-07-23,91527.74000000002,6,"no activity for 140 days, then $91528 in 6 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,1.32,57.9,1,medium
+AL000153,C00386,R3_round_dollar,2025-10-12,225000.0,9,9 round-dollar transfers (multiples of $1000) totalling $225000 in 30 days,round_dollar,round_dollar,True,True,low,4.27,57.7,1,medium
+AL000165,C00035,R3_round_dollar,2025-02-16,205000.0,8,8 round-dollar transfers (multiples of $1000) totalling $205000 in 30 days,round_dollar,round_dollar,True,True,low,4.27,57.7,1,medium
+AL000435,C01030,R7_cash_intensity,2025-09-01,55634.0,6,cash deposits of $55634 in the month vs expected monthly volume $1800,structuring,structuring,True,True,low,2.83,57.4,1,medium
+AL000118,C00196,R2_rapid_movement,2025-09-08,103274.14,2,inbound $103274 moved out within 3 days: $67972 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,2.28,56.9,0,medium
+AL000413,C01471,R7_cash_intensity,2025-05-01,15340.339999999998,4,cash deposits of $15340 in the month vs expected monthly volume $4700,,structuring,False,False,medium,2.84,56.8,0,medium
+AL000113,C01938,R2_rapid_movement,2025-03-25,48481.18,4,inbound $48481 moved out within 3 days: $31823 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,1.57,56.5,0,medium
+AL000387,C00432,R6_high_risk_wire,2025-10-25,54230.28,1,wire of $54230 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,2.82,56.5,0,medium
+AL000093,C01522,R2_rapid_movement,2025-07-07,25265.66,3,inbound $25266 moved out within 3 days: $25193 in 2 transfer(s) to 1 country(ies),,rapid_movement,False,False,medium,1.54,55.8,0,medium
+AL000150,C00679,R3_round_dollar,2025-07-11,180000.0,9,9 round-dollar transfers (multiples of $1000) totalling $180000 in 30 days,round_dollar,round_dollar,True,True,low,2.79,55.7,0,medium
+AL000388,C00507,R6_high_risk_wire,2025-10-27,38875.71,1,wire of $38876 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,2.28,55.7,0,medium
+AL000007,C00077,R1_structuring,2025-10-21,45342.0,5,cash deposits just under $10k: 5 deposits totalling $45342 across 5 branch(es) in 7 days,structuring,structuring,True,True,medium,4.06,55.6,1,medium
+AL000192,C01393,R4_dormant_reactivation,2025-10-22,36672.560000000005,7,"no activity for 153 days, then $36673 in 7 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,1.82,55.6,0,medium
+AL000412,C01254,R7_cash_intensity,2025-03-01,39651.549999999996,7,cash deposits of $39652 in the month vs expected monthly volume $3700,structuring,structuring,True,True,low,2.0,55.0,1,medium
+AL000028,C00745,R1_structuring,2025-10-27,35540.0,4,cash deposits just under $10k: 4 deposits totalling $35540 across 4 branch(es) in 7 days,structuring,structuring,True,True,medium,4.0,55.0,1,medium
+AL000143,C00375,R3_round_dollar,2025-08-06,155000.0,6,6 round-dollar transfers (multiples of $1000) totalling $155000 in 30 days,round_dollar,round_dollar,True,True,low,2.74,54.8,0,medium
+AL000451,C01606,R7_cash_intensity,2025-07-01,57223.82,8,cash deposits of $57224 in the month vs expected monthly volume $2700,structuring,structuring,True,True,low,1.98,54.6,1,medium
+AL000125,C01117,R3_round_dollar,2025-06-25,215000.0,8,8 round-dollar transfers (multiples of $1000) totalling $215000 in 30 days,round_dollar,round_dollar,True,True,low,1.97,54.4,1,medium
+AL000464,C01031,R7_cash_intensity,2025-10-01,48486.53,7,cash deposits of $48487 in the month vs expected monthly volume $5300,dormant_reactivation,structuring,False,True,medium,1.96,54.4,1,medium
+AL000453,C01838,R7_cash_intensity,2025-09-01,27874.27,4,cash deposits of $27874 in the month vs expected monthly volume $2000,structuring,structuring,True,True,low,3.94,54.4,1,medium
+AL000261,C01006,R5_geo_velocity,2025-10-14,290.63,2,card activity in US and BR 15.9 hours apart,,geo_velocity,False,False,high,2.93,53.9,0,medium
+AL000109,C00111,R2_rapid_movement,2025-07-06,25000.0,3,inbound $25000 moved out within 3 days: $52672 in 2 transfer(s) to 1 country(ies),round_dollar,rapid_movement,False,True,low,1.93,53.7,1,medium
+AL000257,C00392,R5_geo_velocity,2025-09-01,232.76999999999998,2,card activity in MX and US 5.3 hours apart,geo_velocity,geo_velocity,True,True,low,2.18,53.6,0,medium
+AL000366,C00609,R6_high_risk_wire,2025-07-22,50949.87,1,wire of $50950 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,low,1.78,53.3,0,medium
+AL000214,C00205,R5_geo_velocity,2025-09-08,1383.26,2,card activity in US and MX 3.7 hours apart,geo_velocity,geo_velocity,True,True,medium,1.77,53.2,0,medium
+AL000211,C00064,R5_geo_velocity,2025-08-22,585.45,2,card activity in US and NL 5.5 hours apart,,geo_velocity,False,False,medium,2.66,53.2,0,medium
+AL000262,C01356,R5_geo_velocity,2025-10-25,801.61,2,card activity in ES and FR 0.9 hours apart,geo_velocity,geo_velocity,True,True,low,1.77,53.2,0,medium
+AL000308,C00202,R5_geo_velocity,2025-10-15,467.77,2,card activity in MX and US 3.4 hours apart,geo_velocity,geo_velocity,True,True,low,1.88,53.2,0,medium
+AL000428,C00015,R7_cash_intensity,2025-08-01,46285.0,5,cash deposits of $46285 in the month vs expected monthly volume $1300,structuring,structuring,True,True,medium,1.39,52.7,1,medium
+AL000161,C01483,R3_round_dollar,2025-06-15,140000.0,7,7 round-dollar transfers (multiples of $1000) totalling $140000 in 30 days,round_dollar,round_dollar,True,True,low,1.75,52.4,0,medium
+AL000225,C01384,R5_geo_velocity,2025-05-16,1581.4499999999998,2,card activity in US and FR 1.5 hours apart,geo_velocity,geo_velocity,True,True,low,2.12,52.4,0,medium
+AL000465,C00077,R7_cash_intensity,2025-10-01,47059.229999999996,6,cash deposits of $47059 in the month vs expected monthly volume $4300,structuring,structuring,True,True,medium,3.74,52.4,1,medium
+AL000236,C01197,R5_geo_velocity,2025-07-07,246.95,2,card activity in IT and US 8.0 hours apart,,geo_velocity,False,False,medium,1.73,52.0,0,medium
+AL000299,C01219,R5_geo_velocity,2025-01-18,247.95999999999998,2,card activity in IN and US 16.7 hours apart,,geo_velocity,False,False,medium,1.78,51.7,0,medium
+AL000256,C00343,R5_geo_velocity,2025-09-09,914.11,2,card activity in ES and GB 2.4 hours apart,geo_velocity,geo_velocity,True,True,low,4.17,51.7,0,medium
+AL000022,C01042,R1_structuring,2025-04-15,35258.0,4,cash deposits just under $10k: 4 deposits totalling $35258 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,3.66,51.6,1,medium
+AL000310,C00339,R5_geo_velocity,2025-12-07,998.4300000000001,2,card activity in FR and GB 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.71,51.4,0,medium
+AL000360,C00003,R6_high_risk_wire,2025-07-07,9629.59,1,wire of $9630 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,medium,2.56,51.2,0,medium
+AL000100,C01816,R2_rapid_movement,2025-05-23,99103.41,4,inbound $99103 moved out within 3 days: $63248 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,1.05,51.2,0,medium
+AL000278,C01660,R5_geo_velocity,2025-02-05,784.53,2,card activity in US and ES 2.4 hours apart,geo_velocity,geo_velocity,True,True,low,2.71,50.7,0,medium
+AL000252,C01365,R5_geo_velocity,2025-07-06,984.15,2,card activity in MX and GB 1.5 hours apart,geo_velocity,geo_velocity,True,True,low,2.02,50.5,0,medium
+AL000133,C00242,R3_round_dollar,2025-06-22,160000.0,9,9 round-dollar transfers (multiples of $1000) totalling $160000 in 30 days,round_dollar,round_dollar,True,True,low,1.6,50.1,0,medium
+AL000402,C00356,R6_high_risk_wire,2025-11-23,18376.69,1,wire of $18377 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,low,1.99,49.8,0,medium
+AL000181,C01031,R4_dormant_reactivation,2025-10-02,133754.31999999998,15,"no activity for 119 days, then $133754 in 15 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,medium,2.32,49.8,1,medium
+AL000245,C01396,R5_geo_velocity,2025-09-21,526.9300000000001,2,card activity in FR and US 8.3 hours apart,,geo_velocity,False,False,low,2.65,49.7,0,medium
+AL000103,C01934,R2_rapid_movement,2025-06-25,73053.1,4,inbound $73053 moved out within 3 days: $45300 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,1.99,49.7,0,medium
+AL000124,C00111,R3_round_dollar,2025-06-24,225000.0,7,7 round-dollar transfers (multiples of $1000) totalling $225000 in 30 days,round_dollar,round_dollar,True,True,low,1.73,49.5,1,medium
+AL000185,C00995,R4_dormant_reactivation,2025-07-31,88343.23000000001,25,"no activity for 144 days, then $88343 in 25 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.63,49.4,0,medium
+AL000383,C01421,R6_high_risk_wire,2025-10-16,56248.82,1,wire of $56249 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,low,2.62,49.4,0,medium
+AL000410,C01699,R7_cash_intensity,2025-11-01,23904.34,3,cash deposits of $23904 in the month vs expected monthly volume $3300,dormant_reactivation,structuring,False,True,low,2.29,49.4,1,medium
+AL000422,C01012,R7_cash_intensity,2025-08-01,45857.94,7,cash deposits of $45858 in the month vs expected monthly volume $2400,structuring,structuring,True,True,low,3.42,49.2,1,medium
+AL000369,C00701,R6_high_risk_wire,2025-04-17,25774.13,1,wire of $25774 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,medium,4.91,49.1,0,medium
+AL000226,C01499,R5_geo_velocity,2025-04-06,284.56,2,card activity in US and ES 18.3 hours apart,,geo_velocity,False,False,low,4.91,49.1,0,medium
+AL000005,C01335,R1_structuring,2025-06-16,45452.0,5,cash deposits just under $10k: 5 deposits totalling $45452 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,1.69,48.9,1,medium
+AL000351,C01422,R6_high_risk_wire,2025-06-01,45267.54,1,wire of $45268 to high-risk jurisdiction RU,high_risk_wires,high_risk_wires,True,True,medium,2.55,48.3,0,medium
+AL000186,C00869,R4_dormant_reactivation,2025-10-21,56994.53999999999,6,"no activity for 166 days, then $56995 in 6 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,1.32,48.0,1,medium
+AL000380,C01887,R6_high_risk_wire,2025-03-12,8978.7,1,wire of $8979 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,1.9,47.9,0,medium
+AL000026,C01429,R1_structuring,2025-03-28,54535.0,6,cash deposits just under $10k: 6 deposits totalling $54535 across 6 branch(es) in 7 days,structuring,structuring,True,True,low,2.19,47.8,1,medium
+AL000318,C00041,R5_geo_velocity,2025-09-09,1074.85,2,card activity in US and ES 1.5 hours apart,geo_velocity,geo_velocity,True,True,medium,4.77,47.7,0,medium
+AL000013,C00758,R1_structuring,2025-08-05,27399.0,3,cash deposits just under $10k: 3 deposits totalling $27399 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,2.17,47.5,1,medium
+AL000043,C01751,R1_structuring,2025-10-30,36576.0,4,cash deposits just under $10k: 4 deposits totalling $36576 across 4 branch(es) in 7 days,structuring,structuring,True,True,low,3.74,47.4,0,medium
+AL000445,C00142,R7_cash_intensity,2025-09-01,16546.92,3,cash deposits of $16547 in the month vs expected monthly volume $1000,dormant_reactivation,structuring,False,True,low,3.22,47.2,1,medium
+AL000056,C01411,R2_rapid_movement,2025-07-30,80645.6,2,inbound $80646 moved out within 3 days: $55498 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,2.42,46.4,0,medium
+AL000324,C00372,R5_geo_velocity,2025-06-18,1353.52,2,card activity in BR and GB 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.84,46.0,0,medium
+AL000127,C01896,R3_round_dollar,2025-05-09,120000.0,6,6 round-dollar transfers (multiples of $1000) totalling $120000 in 30 days,round_dollar,round_dollar,True,True,low,2.3,45.9,0,medium
+AL000044,C01838,R1_structuring,2025-09-16,27328.0,3,cash deposits just under $10k: 3 deposits totalling $27328 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,1.53,45.5,1,medium
+AL000076,C01176,R2_rapid_movement,2025-11-11,129936.87,2,inbound $129937 moved out within 3 days: $97355 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,1.42,45.5,0,medium
+AL000065,C00750,R2_rapid_movement,2025-05-29,48586.05,4,inbound $48586 moved out within 3 days: $38105 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,high,4.54,45.4,0,medium
+AL000008,C00212,R1_structuring,2025-04-14,17440.0,2,cash deposits just under $10k: 2 deposits totalling $17440 across 1 branch(es) in 7 days,structuring,structuring,True,True,high,1.51,45.2,1,medium
+AL000144,C00534,R3_round_dollar,2025-10-30,120000.0,5,5 round-dollar transfers (multiples of $1000) totalling $120000 in 30 days,round_dollar,round_dollar,True,True,medium,3.01,45.1,0,medium
+AL000282,C00528,R5_geo_velocity,2025-10-07,1517.0,2,card activity in ES and GB 3.5 hours apart,geo_velocity,geo_velocity,True,True,low,2.99,44.8,0,medium
+AL000006,C01797,R1_structuring,2025-04-14,26214.0,3,cash deposits just under $10k: 3 deposits totalling $26214 across 3 branch(es) in 7 days,structuring,structuring,True,True,low,4.42,44.2,0,medium
+AL000281,C00100,R5_geo_velocity,2025-02-27,216.3,2,card activity in US and ES 11.6 hours apart,,geo_velocity,False,False,medium,4.42,44.2,0,medium
+AL000015,C01481,R1_structuring,2025-08-11,54237.0,6,cash deposits just under $10k: 6 deposits totalling $54237 across 6 branch(es) in 7 days,structuring,structuring,True,True,low,1.17,44.2,1,medium
+AL000406,C00411,R6_high_risk_wire,2025-11-29,55228.99,1,wire of $55229 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,4.42,44.2,0,medium
+AL000084,C00780,R2_rapid_movement,2025-03-21,49928.11,2,inbound $49928 moved out within 3 days: $46897 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,medium,2.93,44.0,0,medium
+AL000333,C00950,R6_high_risk_wire,2026-01-07,48812.87,1,wire of $48813 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,1.68,43.6,0,medium
+AL000042,C01678,R1_structuring,2025-11-08,28026.0,3,cash deposits just under $10k: 3 deposits totalling $28026 across 3 branch(es) in 7 days,structuring,structuring,True,True,medium,1.89,43.4,1,medium
+AL000160,C01246,R3_round_dollar,2025-10-02,80000.0,3,3 round-dollar transfers (multiples of $1000) totalling $80000 in 30 days,round_dollar,round_dollar,True,True,low,2.89,43.4,0,medium
+AL000253,C01370,R5_geo_velocity,2025-08-30,268.48,2,card activity in BR and US 7.2 hours apart,,geo_velocity,False,False,low,4.32,43.2,0,medium
+AL000327,C00967,R5_geo_velocity,2025-08-30,1379.31,2,card activity in US and GB 1.0 hours apart,geo_velocity,geo_velocity,True,True,low,1.65,43.1,0,medium
+AL000232,C00205,R5_geo_velocity,2025-08-30,1400.35,2,card activity in GB and US 2.0 hours apart,geo_velocity,geo_velocity,True,True,medium,2.87,43.0,0,medium
+AL000297,C00202,R5_geo_velocity,2025-10-24,1722.4,2,card activity in ES and US 2.7 hours apart,geo_velocity,geo_velocity,True,True,low,2.85,42.7,0,medium
+AL000061,C00907,R2_rapid_movement,2025-04-06,59378.38,4,inbound $59378 moved out within 3 days: $37368 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,medium,4.27,42.7,0,medium
+AL000086,C01938,R2_rapid_movement,2025-04-14,51553.99,5,inbound $51554 moved out within 3 days: $43500 in 4 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,2.13,42.7,0,medium
+AL000467,C01429,R7_cash_intensity,2025-03-01,31390.46,5,cash deposits of $31390 in the month vs expected monthly volume $2800,structuring,structuring,True,True,low,1.84,42.6,1,medium
+AL000142,C00182,R3_round_dollar,2025-07-05,100000.0,5,5 round-dollar transfers (multiples of $1000) totalling $100000 in 30 days,round_dollar,round_dollar,True,True,low,2.12,42.4,0,medium
+AL000357,C00609,R6_high_risk_wire,2025-07-03,58688.0,1,wire of $58688 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,low,4.22,42.2,0,medium
+AL000207,C01879,R5_geo_velocity,2025-03-07,831.3000000000001,2,card activity in MX and GB 3.0 hours apart,geo_velocity,geo_velocity,True,True,low,1.61,42.1,0,medium
+AL000466,C01218,R7_cash_intensity,2025-07-01,37100.06,2,cash deposits of $37100 in the month vs expected monthly volume $2700,dormant_reactivation,structuring,False,True,low,1.33,41.6,1,medium
+AL000375,C00049,R6_high_risk_wire,2025-05-04,38464.37,1,wire of $38464 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,low,3.12,41.2,0,medium
+AL000315,C01660,R5_geo_velocity,2025-02-14,539.9200000000001,2,card activity in FR and MX 1.4 hours apart,geo_velocity,geo_velocity,True,True,low,2.74,41.1,0,medium
+AL000217,C01679,R5_geo_velocity,2025-09-18,406.54999999999995,2,card activity in NL and DE 3.4 hours apart,,geo_velocity,False,False,medium,2.02,40.3,0,medium
+AL000275,C00372,R5_geo_velocity,2025-07-07,785.52,2,card activity in BR and ES 2.6 hours apart,geo_velocity,geo_velocity,True,True,low,2.01,40.2,0,medium
+AL000394,C00432,R6_high_risk_wire,2025-11-01,23330.29,1,wire of $23330 to high-risk jurisdiction IR,high_risk_wires,high_risk_wires,True,True,low,4.0,40.0,0,medium
+AL000055,C00972,R2_rapid_movement,2025-06-23,145063.42,3,inbound $145063 moved out within 3 days: $140280 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,4.0,40.0,0,medium
+AL000469,C01226,R7_cash_intensity,2025-01-01,15342.18,8,cash deposits of $15342 in the month vs expected monthly volume $3600,,structuring,False,False,medium,1.99,39.8,0,medium
+AL000347,C01265,R6_high_risk_wire,2025-10-07,19969.47,1,wire of $19969 to high-risk jurisdiction MM,high_risk_wires,high_risk_wires,True,True,high,1.99,39.8,0,medium
+AL000288,C00006,R5_geo_velocity,2025-10-02,1057.91,2,card activity in US and FR 3.4 hours apart,geo_velocity,geo_velocity,True,True,low,1.98,39.7,0,medium
+AL000233,C00527,R5_geo_velocity,2025-12-10,438.92,2,card activity in FR and US 23.6 hours apart,,geo_velocity,False,False,low,2.63,39.4,0,medium
+AL000182,C01029,R4_dormant_reactivation,2025-11-05,58658.850000000006,6,"no activity for 127 days, then $58659 in 6 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,2.61,39.2,0,medium
+AL000441,C01027,R7_cash_intensity,2025-04-01,27201.38,6,cash deposits of $27201 in the month vs expected monthly volume $1300,,structuring,False,False,low,1.95,39.2,0,medium
+AL000268,C00006,R5_geo_velocity,2025-10-22,940.98,2,card activity in BR and MX 1.3 hours apart,geo_velocity,geo_velocity,True,True,low,1.93,39.0,0,medium
+AL000110,C01052,R2_rapid_movement,2025-07-16,60320.8,2,inbound $60321 moved out within 3 days: $47389 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,1.15,38.8,0,medium
+AL000258,C00528,R5_geo_velocity,2025-10-24,1327.01,2,card activity in MX and ES 3.7 hours apart,geo_velocity,geo_velocity,True,True,low,2.56,38.4,0,medium
+AL000279,C00006,R5_geo_velocity,2025-10-12,1116.64,2,card activity in GB and ES 2.1 hours apart,geo_velocity,geo_velocity,True,True,low,2.56,38.4,0,medium
+AL000312,C00914,R5_geo_velocity,2025-03-15,330.91999999999996,2,card activity in GB and US 22.0 hours apart,,geo_velocity,False,False,low,3.81,38.1,0,medium
+AL000311,C00799,R5_geo_velocity,2025-06-21,472.48,2,card activity in US and GB 21.6 hours apart,,geo_velocity,False,False,medium,3.74,37.4,0,medium
+AL000329,C01356,R5_geo_velocity,2025-10-16,750.85,2,card activity in BR and ES 2.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.23,36.9,0,medium
+AL000296,C01968,R5_geo_velocity,2025-03-09,259.31,2,card activity in IT and US 12.3 hours apart,,geo_velocity,False,False,low,1.46,36.4,0,medium
+AL000356,C00003,R6_high_risk_wire,2025-06-28,47893.7,1,wire of $47894 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,medium,1.31,36.2,0,medium
+AL000250,C00624,R5_geo_velocity,2025-06-28,1576.78,2,card activity in FR and BR 2.1 hours apart,geo_velocity,geo_velocity,True,True,low,1.05,36.2,0,medium
+AL000095,C00788,R2_rapid_movement,2025-04-21,39781.71,4,inbound $39782 moved out within 3 days: $35108 in 3 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,1.31,36.1,0,medium
+AL000114,C00867,R2_rapid_movement,2025-04-06,139706.38,4,inbound $139706 moved out within 3 days: $103775 in 3 transfer(s) to 3 country(ies),rapid_movement,rapid_movement,True,True,low,1.3,36.1,0,medium
+AL000094,C00492,R2_rapid_movement,2025-09-25,20869.39,2,inbound $20869 moved out within 3 days: $14424 in 1 transfer(s) to 1 country(ies),,rapid_movement,False,False,low,1.79,35.7,0,medium
+AL000228,C01748,R5_geo_velocity,2025-03-11,920.27,2,card activity in ES and MX 3.4 hours apart,geo_velocity,geo_velocity,True,True,medium,1.18,35.4,0,medium
+AL000117,C00750,R2_rapid_movement,2025-06-18,39444.54,3,inbound $39445 moved out within 3 days: $34495 in 2 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,high,2.31,34.6,0,low
+AL000363,C00003,R6_high_risk_wire,2025-07-13,43025.51,1,wire of $43026 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,medium,2.29,34.3,0,low
+AL000239,C01442,R5_geo_velocity,2025-03-15,390.8,2,card activity in US and GB 2.0 hours apart,,geo_velocity,False,False,medium,3.42,34.2,0,low
+AL000068,C00040,R2_rapid_movement,2025-08-23,117649.48,3,inbound $117649 moved out within 3 days: $76684 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,low,1.7,34.0,0,low
+AL000273,C00211,R5_geo_velocity,2025-10-31,524.68,2,card activity in US and GB 15.0 hours apart,geo_velocity,geo_velocity,True,True,medium,1.69,33.7,0,low
+AL000203,C00782,R5_geo_velocity,2025-01-27,589.75,2,card activity in US and ES 3.9 hours apart,,geo_velocity,False,False,low,2.2,33.1,0,low
+AL000119,C00801,R2_rapid_movement,2025-09-22,42545.9,3,inbound $42546 moved out within 3 days: $28987 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,high,1.32,33.0,0,low
+AL000280,C00067,R5_geo_velocity,2025-09-26,403.01,2,card activity in DE and US 3.1 hours apart,,geo_velocity,False,False,medium,1.11,32.3,0,low
+AL000062,C00296,R2_rapid_movement,2025-04-09,30402.78,3,inbound $30403 moved out within 3 days: $25343 in 2 transfer(s) to 2 country(ies),rapid_movement,rapid_movement,True,True,medium,3.22,32.2,0,low
+AL000215,C00211,R5_geo_velocity,2025-11-01,1474.33,2,card activity in GB and FR 2.7 hours apart,geo_velocity,geo_velocity,True,True,medium,3.12,31.2,0,low
+AL000326,C00942,R5_geo_velocity,2025-04-03,321.91,2,card activity in NL and US 17.1 hours apart,,geo_velocity,False,False,low,1.06,31.1,0,low
+AL000320,C00088,R5_geo_velocity,2025-08-12,1243.88,2,card activity in GB and FR 1.0 hours apart,geo_velocity,geo_velocity,True,True,medium,2.07,31.0,0,low
+AL000448,C01678,R7_cash_intensity,2025-11-01,30385.85,7,cash deposits of $30386 in the month vs expected monthly volume $4100,structuring,structuring,True,True,medium,1.05,30.8,1,low
+AL000066,C01411,R2_rapid_movement,2025-07-10,96440.84,2,inbound $96441 moved out within 3 days: $62689 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,1.97,29.6,0,low
+AL000178,C01850,R4_dormant_reactivation,2025-12-05,75526.19,11,"no activity for 162 days, then $75526 in 11 transactions within 7 days",dormant_reactivation,dormant_reactivation,True,True,low,1.47,29.5,0,low
+AL000321,C00112,R5_geo_velocity,2025-11-25,372.4,2,card activity in CA and NL 18.4 hours apart,,geo_velocity,False,False,medium,1.48,29.5,0,low
+AL000339,C01215,R6_high_risk_wire,2025-09-26,22855.82,1,wire of $22856 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,1.42,28.5,0,low
+AL000398,C01265,R6_high_risk_wire,2025-11-07,11909.53,1,wire of $11910 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,high,1.89,28.4,0,low
+AL000241,C00205,R5_geo_velocity,2025-09-18,1024.03,2,card activity in ES and GB 1.8 hours apart,geo_velocity,geo_velocity,True,True,medium,1.87,28.0,0,low
+AL000219,C00205,R5_geo_velocity,2025-05-30,486.90999999999997,2,card activity in GB and US 4.6 hours apart,geo_velocity,geo_velocity,True,True,medium,1.86,27.9,0,low
+AL000374,C00094,R6_high_risk_wire,2025-05-04,38050.52,1,wire of $38051 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,1.37,27.5,0,low
+AL000164,C01512,R3_round_dollar,2025-08-04,95000.0,6,6 round-dollar transfers (multiples of $1000) totalling $95000 in 30 days,round_dollar,round_dollar,True,True,low,1.1,27.4,0,low
+AL000078,C00919,R2_rapid_movement,2025-06-06,118622.17,2,inbound $118622 moved out within 3 days: $77621 in 1 transfer(s) to 1 country(ies),rapid_movement,rapid_movement,True,True,low,2.74,27.4,0,low
+AL000158,C00080,R3_round_dollar,2025-02-13,145000.0,8,8 round-dollar transfers (multiples of $1000) totalling $145000 in 30 days,round_dollar,round_dollar,True,True,low,1.8,27.0,0,low
+AL000323,C00339,R5_geo_velocity,2025-11-28,491.4,2,card activity in BR and ES 2.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.35,27.0,0,low
+AL000229,C01968,R5_geo_velocity,2025-11-21,288.19,2,card activity in IT and US 4.5 hours apart,,geo_velocity,False,False,low,1.06,26.6,0,low
+AL000313,C01384,R5_geo_velocity,2025-05-07,708.6,2,card activity in BR and ES 3.0 hours apart,geo_velocity,geo_velocity,True,True,low,1.06,26.5,0,low
+AL000247,C01660,R5_geo_velocity,2025-02-24,632.93,2,card activity in GB and US 3.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.73,26.0,0,low
+AL000381,C01916,R6_high_risk_wire,2025-10-13,40885.08,1,wire of $40885 to high-risk jurisdiction YE,high_risk_wires,high_risk_wires,True,True,low,2.58,25.8,0,low
+AL000350,C00003,R6_high_risk_wire,2025-06-01,45627.49,1,wire of $45627 to high-risk jurisdiction KP,high_risk_wires,high_risk_wires,True,True,medium,1.03,25.5,0,low
+AL000292,C00392,R5_geo_velocity,2025-06-20,899.22,2,card activity in FR and MX 2.2 hours apart,geo_velocity,geo_velocity,True,True,low,1.03,25.5,0,low
+AL000140,C01694,R3_round_dollar,2025-05-06,160000.0,7,7 round-dollar transfers (multiples of $1000) totalling $160000 in 30 days,round_dollar,round_dollar,True,True,low,1.67,25.1,0,low
+AL000210,C00041,R5_geo_velocity,2025-09-26,435.07000000000005,2,card activity in FR and BR 1.5 hours apart,geo_velocity,geo_velocity,True,True,medium,1.0,25.0,0,low
+AL000135,C00963,R3_round_dollar,2025-04-15,135000.0,6,6 round-dollar transfers (multiples of $1000) totalling $135000 in 30 days,round_dollar,round_dollar,True,True,medium,1.0,25.0,0,low
+AL000391,C00411,R6_high_risk_wire,2025-10-29,48798.06,1,wire of $48798 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,1.0,25.0,0,low
+AL000349,C00049,R6_high_risk_wire,2025-05-28,45737.0,1,wire of $45737 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,1.24,24.8,0,low
+AL000163,C01246,R3_round_dollar,2025-09-21,150000.0,5,5 round-dollar transfers (multiples of $1000) totalling $150000 in 30 days,round_dollar,round_dollar,True,True,low,1.22,24.4,0,low
+AL000259,C00588,R5_geo_velocity,2025-12-14,1023.47,2,card activity in FR and US 3.0 hours apart,geo_velocity,geo_velocity,True,True,low,2.42,24.2,0,low
+AL000354,C01422,R6_high_risk_wire,2025-06-21,31478.43,1,wire of $31478 to high-risk jurisdiction SY,high_risk_wires,high_risk_wires,True,True,medium,1.54,23.1,0,low
+AL000370,C00094,R6_high_risk_wire,2025-04-18,25448.38,1,wire of $25448 to high-risk jurisdiction VE,high_risk_wires,high_risk_wires,True,True,low,1.12,22.3,0,low
+AL000368,C00094,R6_high_risk_wire,2025-04-10,53378.06,1,wire of $53378 to high-risk jurisdiction BY,high_risk_wires,high_risk_wires,True,True,low,2.0,20.0,0,low
+AL000332,C01912,R5_geo_velocity,2025-09-05,2018.22,2,card activity in GB and MX 0.9 hours apart,geo_velocity,geo_velocity,True,True,medium,1.32,19.8,0,low
+AL000136,C01223,R3_round_dollar,2025-03-10,160000.0,8,8 round-dollar transfers (multiples of $1000) totalling $160000 in 30 days,round_dollar,round_dollar,True,True,low,1.14,17.1,0,low
+AL000234,C00528,R5_geo_velocity,2025-11-04,988.46,2,card activity in ES and MX 1.6 hours apart,geo_velocity,geo_velocity,True,True,low,1.1,16.5,0,low

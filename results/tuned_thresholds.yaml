@@ -1,0 +1,41 @@
+rules:
+  R1_structuring:
+    weight: 30
+    cash_min: 8000
+    cash_max: 10000
+    min_count: 2.0
+    window_days: 7
+  R2_rapid_movement:
+    weight: 25
+    min_inbound: 20000
+    min_out_share: 0.6
+    window_days: 3
+  R3_round_dollar:
+    weight: 10
+    round_to: 1000
+    min_amount: 5000
+    min_count: 3.0
+    window_days: 30
+  R4_dormant_reactivation:
+    weight: 15
+    dormant_days: 90
+    burst_days: 7
+    min_burst_amount: 5000.0
+  R5_geo_velocity:
+    weight: 20
+    max_hours: 24.0
+    min_amount: 100
+  R6_high_risk_wire:
+    weight: 20
+    min_amount: 1000.0
+  R7_cash_intensity:
+    weight: 15
+    min_monthly_cash: 15000.0
+    multiple_of_expected: 3.0
+  R8_velocity_spike:
+    weight: 10
+    lookback_days: 90
+    window_days: 7
+    multiple: 4.0
+    min_count: 15
+    enabled: false
