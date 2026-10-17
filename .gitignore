@@ -7,3 +7,4 @@ data/*.parquet
 data/*.csv
 results/star_schema/*.csv
 .DS_Store
+results_quick/

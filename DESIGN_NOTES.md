@@ -1,4 +1,4 @@
-# Interview guide - aml-transaction-monitoring
+# Design notes - aml-transaction-monitoring
 
 ## What it does, in three sentences
 
@@ -34,7 +34,7 @@ fits a team of analysts, and writes a SAR-style summary for the top cases.
   what a real program tunes on.
 - Make typologies mutate over time in the generator to test how quickly rules go stale.
 
-## Five questions an interviewer would ask, with honest answers
+## Design questions and answers
 
 **1. Your tuned precision is 83%. Real programs run at 5-10 %. Why the gap?**
 Because the answer key and the rules were written by the same person: injected structuring *is* three deposits under
@@ -62,7 +62,7 @@ US banks must file a Currency Transaction Report for cash transactions over $10,
 four deposits of $7,500 to avoid that report is structuring, a federal crime even if the money is clean. R1 looks for
 several deposits just under the threshold in a short window, often across branches.
 
-## Numbers to have in your head (from `results/metrics.json`)
+## Key figures (from `results/metrics.json`)
 
 518,492 transactions · 2,000 customers · 12 months · 972 injected rows on 190 customers · 8 rules · baseline 693 alerts
 (57.8/mo) at 53% precision, 175/190 suspicious customers reached · tuned 470 alerts (39.2/mo) at 83% precision,

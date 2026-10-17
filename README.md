@@ -111,7 +111,7 @@ Priority mix after tuning: high 293, medium 133, low 44. The top 25 customers by
 - **Severity is logarithmic in amount.** A $50k structuring episode outranks a $25k one, but not by 2x - analysts
   triage by pattern first, size second.
 
-## Limitations (say these in the interview)
+## Limitations
 
 - The rules were written by the same person who injected the typologies, so recall is near-perfect on the injected
   cases. Real typologies mutate; real recall is unknowable without SAR feedback loops. The FP rates are the more honest
